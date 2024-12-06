@@ -20,4 +20,5 @@ plt.title("Cricket Chirps by Temperature")
 print(f"Correlation between Temperature and Chirps/Min: {x.corr(y)}")
 
 # show the plot
+plt.legend()
 plt.show()
